@@ -1,0 +1,19 @@
+<div>
+  <table style="width: 80%;">
+    <thead>
+      <th>Transaction</th>
+      <th>Type</th>
+      <th>Value</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let transaction of this.transactions">
+        <td>{{transaction.transactionId}}</td>
+        <td>{{transaction.transactionType}}</td>
+        <td>{{transaction.value}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p></p>
+  &nbsp; <a href="/">Close</a>
+</div>

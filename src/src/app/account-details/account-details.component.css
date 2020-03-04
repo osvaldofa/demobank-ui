@@ -1,0 +1,11 @@
+table, td, th {
+   text-align-last: left;
+}
+
+div {
+  width: 80%;
+  background-color:#EEEEEE;
+  border-radius:5px;
+  border: 1px black solid;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
