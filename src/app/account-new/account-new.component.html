@@ -1,0 +1,32 @@
+<div>
+    <h3>&nbsp;&nbsp;New Account Creation</h3> <br/>
+    <table style="width: 60%">
+      <tr>
+          <td style="width: 2%"></td>
+          <td>
+            Customer Id:
+          </td>
+          <td>
+            <input type="text" value="{{this.customerId}}"  style="width: 70%;" disabled>
+          </td>
+      </tr>
+      <tr>
+        <td style="width: 2%"></td>
+        <td>
+          Initial Balance:
+        </td>
+        <td>
+          <input [(ngModel)]="this.initialBalance" style="width: 70%;">
+      </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <button (click)='this.createAccount()'>Create Account</button> &nbsp;
+
+          <button (click)='this.goHome()'>Cancel</button></td>
+    </tr>
+    </table>
+    <br/>
+</div>
